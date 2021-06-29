@@ -10,7 +10,7 @@ when '-a'
 when '-c'
   Driver.new.draw_chart_for_month
 when '-b'
-  Driver.new.draw_chart_for_month
+  Driver.new.draw_bar_chart_for_month
 else
   puts 'Invalid Input!'
 end
